@@ -33,6 +33,7 @@ you have to import it in the postman, you'll find the import option in top-left 
 Strictly follow the below steps to test the apis,
 
 - First, you have to create user using this api, POST "BASEURL/api/auth/register"
+- You'll receive the OTP in your email (check spam if it's not inside inbox)
 - Then, verify user using this api, POST "BASEURL/api/auth/verify-otp"
 - Then, Get authorize token, POST "BASEURL/api/auth/login"
 - Then, Create item, POST "BASEURL/api/items/create"
