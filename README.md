@@ -22,10 +22,10 @@ npm run dev
 ```
 create .env file,
 add below keys into .env file-
-DB_URL= mongodb://0.0.0.0:27017/assignment
-PORT= 8000
-NODE_ENV= development
-API_SECRET= efghij
+- DB_URL= mongodb://0.0.0.0:27017/assignment
+- PORT= 8000
+- NODE_ENV= development
+- API_SECRET= efghij
 
 ## How can you test in POSTMAN?
 I have pushed postman collection in this repository.
@@ -40,8 +40,8 @@ Strictly follow the below steps to test the apis,
 - For retrieve single item, GET "BASEURL/api/items/ID"
 - For Update item, PUT "BASEURL/api/items/ID"
 - For delete item, DELETE "BASEURL/api/items/ID"
-BASEURL = your localhost url
-ID = Item id
+- (BASEURL = your localhost url)
+- (ID = Item id)
 
 
 ## Technology used
@@ -51,7 +51,7 @@ ID = Item id
 - Json web token
 - Winston
 - Nodemailer
-And, various other packages i have used in this project.
+- And, various other packages i have used in this project.
 
 ## What things have I implemented?
 
