@@ -5,7 +5,7 @@
 ## Getting started
 
 ```
-git clone https://github.com/pallab12/Furation_Assignment.git
+git clone https://github.com/pallab12/Assignment01.git
 
 ```
 
